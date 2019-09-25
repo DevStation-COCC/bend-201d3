@@ -1,0 +1,11 @@
+* {
+  font-family: sans-serif;
+  outline: 1px dotted black;
+}
+
+header {
+  width: 200px;
+  border: 10px solid orange;
+  padding: 50px;
+  margin: auto;
+}
