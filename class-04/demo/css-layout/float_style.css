@@ -1,0 +1,63 @@
+/* h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 800px;
+  height: 750px;
+  position: relative;
+  border: 1px black solid;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  border: 1px black solid;
+  margin: auto;
+  text-align: center;
+}
+
+aside {
+  height: 550px;
+  border: 1px black solid;
+  width: 250px;
+  float: left;
+
+}
+
+main {
+  height: 550px;
+  border: 1px black solid;
+  width: 546px;
+  float: right;
+}
+
+footer {
+  position: absolute;
+  border: black solid 1px;
+  height: 96px;
+  width: 100%;
+  bottom: 0px;
+}
+
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  border: 3px solid green;
+  line-height: 100px;
+  text-align: center;
+  color: green;
+
+}
+
+section {
+  width: 400px;
+  height: 75px;
+  border: 3px solid red;
+  color: red;
+  clear: both;
+} */
