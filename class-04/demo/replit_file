@@ -1,0 +1,30 @@
+
+// var myArg = 'jack';
+
+
+// function myFunc(param) {
+//   console.log('hello ' + param);
+//   return (param + ' you are a good looking person');
+// }
+
+// myFunc(myArg);
+
+// var myFunction2 = function(){
+//   console.log('hi, i am an expression');
+// }
+
+// myFunction2();
+
+//Scope
+
+var globalvar = 1;
+
+function myfunction1(param){
+  var localvar = 5;
+  return param + 2;
+}
+
+myfunction1(globalvar);
+
+//error happens - no access to local scope
+console.log(localvar);
