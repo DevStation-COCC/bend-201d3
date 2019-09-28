@@ -27,13 +27,13 @@ Assignments are submitted using a professional-grade git-flow. If you haven't do
 
 ## Accountability Partners
 
-Natalie => Holly, Trevor
-Holly => Lindsay, Natalie
-Conor => David, Mason
-Lindsay => Mark, Holly
-Travis => Mason, Trevor
-Matt => David, Mark 
-Mark => Lindsay, Matt
-Trevor => Mason, Natalie
-David => Conor, Matt
-Mason => Trevor, Conor
+Natalie => Holly, Trevor  
+Holly => Lindsay, Natalie  
+Conor => David, Mason  
+Lindsay => Mark, Holly  
+Travis => Mason, Trevor  
+Matt => David, Mark   
+Mark => Lindsay, Matt  
+Trevor => Mason, Natalie  
+David => Conor, Matt  
+Mason => Trevor, Conor  
