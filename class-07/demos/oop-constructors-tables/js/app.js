@@ -135,9 +135,3 @@ function render(){
 })(puppyData);
 
 
-function myFunction(param1) {
-  return 'I am returning ' + param1;
-}
-
-var myArgument = 'abc';
-myFunction(myArgument);
