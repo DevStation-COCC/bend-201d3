@@ -1,0 +1,73 @@
+* {
+  font-family: 'Mansalva', cursive;
+}
+
+.staffSay {
+  font-style: italic;
+}
+
+body {
+  background-color: lightgray
+}
+
+h1 {
+
+  height: 50px;
+  background-color: lightslategray;
+  
+}
+
+img{
+
+  max-width: 17%;
+  height: auto;
+  border-radius: 50%;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+.dogImg {
+  max-width: 100%;
+  float: right;
+  position: relative;
+}
+
+#content {
+  margin: auto;
+  width: 70%;
+}
+
+#bendpuppy_header {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  padding: 5px;
+}
+
+article {
+  background-color: white;
+  margin-top: 150px;
+  padding: 10px;
+  height: 300px;
+  border-radius: 7px;
+}
+
+article li {
+  padding: 3px;
+}
+
+h2 {
+  margin-top: 1px;
+}
+
+ol {
+  padding-left: 20px;
+}
