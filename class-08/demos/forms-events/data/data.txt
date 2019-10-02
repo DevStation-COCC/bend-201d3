@@ -1,0 +1,3 @@
+  ['Frisky','','Australian Shepherd',  'Frisky is a loving, gentle dog', ['Good with kids', 'Good with dogs', 'Good with cats'],'Working dogs! Needs lots of exercise', 'https://en.wikipedia.org/wiki/Australian_Shepherd', '../img/pup3.jpeg'],
+
+  ['Sadie', 5,'Catahoula Leopard Dog',  'Sadie is the sweetest Catahoula ever!', ['Not Good with kids', 'Not Good with dogs', 'Not Good with cats'],'Working dogs! Extremely affectionate.', 'https://en.wikipedia.org/wiki/Louisiana_Catahoula_Leopard_dog', '../img/pup1.jpeg']
