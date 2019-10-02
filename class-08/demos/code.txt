@@ -1,0 +1,55 @@
+<form id="addStuffForm">
+        <fieldset>
+          <legend>Basic Information</legend>
+          <label>First Name</label>
+          <input name="name" type="text"/>
+          <label>Last Name</label>
+          <input name="breed" type="text" />
+          <label>Birth Place</label>
+          <input name="coatColor" type="text" />
+          <label>Interests</label>
+          <input name="interests" type="text" />
+        </fieldset>
+        <fieldset>
+          <legend>Placement Information</legend>
+          <p>Languages known...</p>
+          <label>
+            <input name="knowsEnglish" type="checkbox" />
+            English
+          </label>
+          <label>
+            <input name="knowsAmerican" type="checkbox" />
+            American
+          </label>
+          <label>
+            <input name="knowsCanadian" type="checkbox" />
+            Canadian
+          </label>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+
+      <br>
+      <br>
+
+      <button id="straybutton">Click Me</button>
+
+
+
+
+js
+
+var myForm = document.getElementById('addStuffForm');
+
+myForm.addEventListener('submit', function(e){
+  event.preventDefault();
+  alert(e.target.name.value);
+});
+
+var myButton = document.getElementById('straybutton');
+
+myButton.addEventListener('click', handleClick);
+
+function handleClick(){
+  alert('stray buton clicked');
+}

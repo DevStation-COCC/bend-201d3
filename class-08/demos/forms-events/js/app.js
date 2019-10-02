@@ -1,19 +1,5 @@
 'use strict';
 
-{/* <article id = "riley">
-<a href="https://en.wikipedia.org/wiki/German_Shepherd"><img src="./img/riley.jpeg" alt="image of Riley" /></a>
-<h2>Riley</h2>
-<h3>Breed: German Shepherd</h3>
-<h4>Additional Information:</h4>
-<ol>
-  <li>Good with kids</li>
-  <li>Good with dogs</li>
-  <li>Not Good with cats</li>
-</ol>
-<p>German Shepherds are extremely loyal, smart and protective.</p>
-<p class = "staffSay">Riley is mischievious and playful. He has got big paws and is going to be a big boy.</p>
-</article> */}
-
 //Define global items - constructor
 
 var puppyData = [
@@ -124,6 +110,32 @@ function render(){
   h3.textContent = `Staff say: ${this.staffSay}`;
   article.appendChild(h4);
 }
+
+var puppyForm = document.getElementById('addPuppyForm');
+
+puppyForm.addEventListener('submit', handleSubmit);
+
+function handleSubmit(event){
+  event.preventDefault();
+  var name = event.target.name.value;
+  var breed = event.target.breed.value;
+  var description = event.target.description.value;
+  var staffsay = event.target.staffsay.value;
+  var arrAdditionalInfo = [];
+
+  arrAdditionalInfo.push(event.target.isGoodWithOtherDogs.checked? 'Good with Dogs': 'Not Good With Dogs');
+  arrAdditionalInfo.push(event.target.isGoodWithCats.checked? 'Good with Cats': 'Not Good With Cats');
+  arrAdditionalInfo.push(event.target.isGoodWithKids.checked? 'Good with Kids': 'Not Good With Kids');
+  
+
+  var newPuppy = new Puppy(name, '', breed, staffsay, description, arrAdditionalInfo);
+  newPuppy.generateAge();
+  newPuppy.renderPup();
+  console.log('finished creating form dog');
+}
+
+
+
 //************************************ *
 //Executing Code
 
