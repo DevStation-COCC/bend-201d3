@@ -10,6 +10,7 @@
   - Review feedback from week 2 surveys
   - Discuss upcoming Career Coaching assignments
 - Code Review / Lecture
+- Lab prep and workshop
 
 **Learning Objectives**
 
