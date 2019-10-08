@@ -1,0 +1,61 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+p {
+  margin: auto;
+  width: 500px;
+}
+
+#imageDiv {
+  text-align: center;
+}
+
+img{
+  width: 25%;
+  border-radius: 8px;
+  border: slategrtay solid 1px;
+}
+
+.resetDisable {
+  font-size: 1.25em;
+  background-color: lightgray;
+  color: white;
+  width: 80px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  position: fixed;
+  top: 350px;
+  right: 250px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#reset:hover{
+  cursor: pointer;
+}
+.resetEnable {
+  font-size: 1.25em;
+  background-color: navy;
+  color: white;
+  width: 80px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  position: fixed;
+  top: 350px;
+  right: 250px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.resetEnable:focus {
+  font-size: 1.3em;
+  color: yellow;
+}
