@@ -30,11 +30,33 @@ function Coffee(name, size, milk, isHot, drinkType){
 
   // add every drink that gets created into an array
   Coffee.drinks.push(this);
-}
 
+  updateLocalStorage();
+
+}
 // set the global array to empty
 Coffee.drinks = [];
 
+function updateLocalStorage(){
+  var arrString = JSON.stringify(Coffee.drinks);
+  console.log('stringified', arrString);
+  console.log('not stringified', Coffee.drinks);
+  localStorage.setItem('coffee', arrString);
+}
+
+function getCoffeeOrders(){
+  console.log('trying to get data from localstorage');
+
+  var data = localStorage.getItem('coffee');
+  var coffeeData = JSON.parse(data);
+
+  //test for first time user
+  if(coffeeData !== null){
+    Coffee.drinks = coffeeData;
+  }
+  renderOrders();
+
+}
 
 // event handler function to run everytime the form is submitted
 function handleSubmit(event){
@@ -80,4 +102,6 @@ function renderOrders(){
 // Add an event listener to the submit button
 orderForm.addEventListener('submit', handleSubmit)
 
+//Executing Code
+getCoffeeOrders();
 
