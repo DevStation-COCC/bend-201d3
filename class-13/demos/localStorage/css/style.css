@@ -1,0 +1,44 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  size: 1.25em;
+}
+
+form {
+  size: 2em;
+}
+
+fieldset {
+  background-color:#CCC;
+  max-width:600px;
+  padding:16px;	
+  border-radius: 8px
+}
+
+legend
+{
+  margin-bottom:0px;
+  margin-left:16px;
+}
+
+input.formItems {
+  width: 10em;
+  height: 1.5em;
+}
+
+select option {
+  font-size: 16px;
+}
+
+button.formItems {
+  background-color: #4CAF50; /* Green */
+  border: solid gray 1px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 15px;
+
+}
