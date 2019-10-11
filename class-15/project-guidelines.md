@@ -222,6 +222,6 @@ Technical merit is graded based on the following criteria:
   - Has at least three distinct pages with clear navigation, one of which must be an "About Us" page
   - Has at least two pages that accept and process user input
   - State is persisted between page reloads
-  - Deployed live on the Internet via GitHub Pages
+  - Deployed live on the Internet via GitHub Pages and/or Netlify
 
 This document was inspired by and adapted from [this set of project guidelines](https://github.com/elsewhencode/project-guidelines).
