@@ -13,17 +13,17 @@ function resetState(){
   };
 }
 
-function toggleRotate(element){
-  if(element.className.includes('rotateLeft')){
-    element.className.replace('rotateLeft', 'rotateRight');
-    return true;
-  }else if(element.className.includes('rotateRight')){
-    element.className = element.className.replace('rotateRight', 'rotateLeft');
-    return true;
-  }else{
-    return false;
-  }
-}
+// function toggleRotate(element){
+//   if(element.className.includes('rotateLeft')){
+//     element.className.replace('rotateLeft', 'rotateRight');
+//     return true;
+//   }else if(element.className.includes('rotateRight')){
+//     element.className = element.className.replace('rotateRight', 'rotateLeft');
+//     return true;
+//   }else{
+//     return false;
+//   }
+// }
 
 var btnDecrement = document.getElementById('btnDecrement');
 var btnIncrement = document.getElementById('btnIncrement');
